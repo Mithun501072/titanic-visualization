@@ -48,6 +48,31 @@ df = sns.load_dataset("titanic")
 # Save it as CSV so you can download
 df.to_csv("titanic_seaborn.csv", index=False)
 
+Bar Plot – Shows survival rate for each passenger class (1st, 2nd, 3rd).
+People in 1st class had higher chances of survival.
+
+Box Plot – Shows the spread of passenger ages in each class.
+Higher classes had older passengers on average.
+
+Violin Plot – Shows how fares (ticket prices) are distributed in each class.
+1st class tickets were much more expensive than others.
+
+KDE Plot – Smooth curve showing age distribution for survivors vs non-survivors.
+Many young children had better survival chances.
+
+Scatter Plot (swarm-like) – Age vs Fare with small random spread.
+Younger passengers bought cheaper tickets, but some older passengers paid very high fares.
+
+# Observations
+From the above, we can say:
+1st class passengers had better survival rates.
+Younger kids survived more often than adults.
+Ticket price was strongly linked with survival (richer passengers had higher chances).
+
+
+
+
+
 
 
 
